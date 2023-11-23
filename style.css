@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&family=Quicksand:wght@500&display=swap');
+
+html{
+  background-color: rgba(224, 223, 223, 0.308);
+  
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  font-family: 'Quicksand';
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+div {
+  margin-top: 20px;
+}
+.container{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.datas{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+#input{
+  display: flex;
+    width: 250px;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.253);
+}
+
+input:hover{
+  cursor: pointer;
+}
+#resultados{
+  width: 40%;
+  border-radius: 10px;
+  background-color: white !important;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.253);
+}
+p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+button{
+  margin-top: 80px;
+  border-style: none;
+  width: 250px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: rgb(196, 196, 196) !important;
+  color: white !important;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(104, 104, 104) !important;
+  color: white !important;
+  
+}
+
+h1{
+  margin-bottom: 80px;
+}
